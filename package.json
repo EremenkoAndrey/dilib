@@ -8,7 +8,7 @@
     "prepare": "npm run build"
   },
   "keywords": ["di", "dependency injection", "typescript", "javascript"],
-  "author": "",
+  "author": "Erormenko Andrey <fr0ntender@yandex.ru>",
   "license": "MIT",
   "description": "A simple Dependency Injection library for JavaScript and TypeScript.",
   "devDependencies": {

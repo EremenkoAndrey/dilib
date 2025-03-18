@@ -74,7 +74,7 @@ logger.log('This is a log message'); // "[AppLogger] This is a log message"
 Токены полезны, когда у вас есть несколько зависимостей одного типа.
 
 ```typescript
-import { Injector, InjectionToken } from 'my-di-library';
+import { Injector, InjectionToken } from 'dilib';
 
 const MY_TOKEN = new InjectionToken<string>('MyToken');
 
@@ -98,7 +98,7 @@ console.log(value); // "This is a token value"
 Вы можете отключить это поведение.
 
 ```typescript
-import { Injector } from 'my-di-library';
+import { Injector } from 'dilib';
 
 class Counter {
     private count = 0;
@@ -133,7 +133,7 @@ counter3.increment(); // "Count: 1"
 Например, один сервис может зависеть от другого
 
 ```typescript
-import { Injector } from 'my-di-library';
+import { Injector } from 'dilib';
 
 class Database {
     connect() {
