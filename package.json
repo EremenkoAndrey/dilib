@@ -1,0 +1,18 @@
+{
+  "name": "dilib",
+  "version": "1.0.0",
+  "main": "dist/injector.js",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": ["di", "dependency injection", "typescript", "javascript"],
+  "author": "",
+  "license": "MIT",
+  "description": "A simple Dependency Injection library for JavaScript and TypeScript.",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "files": ["dist"]
+}

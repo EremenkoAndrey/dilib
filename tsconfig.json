@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                // Целевая версия JavaScript
+    "module": "CommonJS",           // Формат модулей (CommonJS подходит для Node.js)
+    "outDir": "./dist",             // Папка для скомпилированных файлов
+    "rootDir": "./src",             // Папка с исходными файлами
+    "strict": true,                 // Включение строгой проверки типов
+    "esModuleInterop": true,        // Для совместимости с CommonJS
+    "skipLibCheck": true,           // Пропуск проверки типов в библиотеках
+    "declaration": true             // Генерация файлов .d.ts для TypeScript
+  },
+  "include": ["src/**/*.ts"],       // Какие файлы компилировать
+  "exclude": ["node_modules"]       // Что исключить из компиляции
+}
